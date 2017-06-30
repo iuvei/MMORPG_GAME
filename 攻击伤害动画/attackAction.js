@@ -20,3 +20,6 @@ seq = new cc.Sequence( new cc.EaseExponentialOut( new cc.MoveBy( .5, p.x/2, -p.y
 
 img.setPosition(cc.winSize.width/2,cc.winSize.height/2);
 img.runAction(seq);
+//这个可以控制速度
+// img.speed = new cc.Speed(seq, 1);
+// img.runAction( spr.speed );
