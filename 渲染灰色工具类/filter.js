@@ -1,4 +1,11 @@
-﻿/**
+﻿var EngineCost = EngineCost || {
+    
+    TYPE_CLINET:0,
+    TYPE_WEB:1,
+    // 引擎类型， 0:有端模式(win32，安卓,IOS)   1:网页模式(HTML5)
+    engieType:0,
+}
+/**
  * Created by zj on 2015/10/26 0026.
  * �����˾�
  * ��̬��
