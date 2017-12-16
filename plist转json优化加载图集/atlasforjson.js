@@ -5,7 +5,7 @@ ctor:function ()
 	var self = this;
 	var loadAnimationImg = function()
 	{
-		cc.loader.loadImg("res/attack2.png", function (err, img) 
+		cc.loader.loadImg("res/bibirole.png", function (err, img) 
 		{
 			if(err)
 			{
@@ -20,7 +20,7 @@ ctor:function ()
 		});
 	};
 	var animjson = null;
-	cc.loader.loadTxt("res/attack2.json", function (err, txt) 
+	cc.loader.loadTxt("res/bibirole.json", function (err, txt) 
 	{
 		if(err)
 		{
@@ -62,7 +62,7 @@ _ParseAnimi:function(animjson, texture)
 			// spriteFrame.name = frame.name;
 			/* 
 				cc.spriteFrameCache.addSpriteFrame( spriteFrame, frame.name );
-				var sp =new cc.Sprite("#00005.png");
+				var sp =new cc.Sprite("#001.png");
 				self.addChild(sp);
 				sp.x = sp.y = 500;
 			*/
