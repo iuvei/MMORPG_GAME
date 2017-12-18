@@ -1,4 +1,4 @@
 ﻿1：用texturepaker打包图集
 2：用plistToJson.py脚本生成对应json文件
 3：在atlasforjson.js代码中实现
-注：实际项目中因将plistToJson.py脚步写成批量自动转换，这里略过
+注：plistToJson.py脚本将批量自动转换，只需要手动添加含有plist文件的根目录，脚步将自动搜索根目录及子目录中的plist文件
